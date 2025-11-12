@@ -19,6 +19,11 @@ namespace NullOperationsApp
             ageChecker.CheckAgeCategory();
 
             Console.WriteLine("\nAll tasks executed successfully!");
+            // Task4
+            Console.WriteLine("=== Task 4: Switch Case (Day of the Week) ===");
+            DayChecker dayChecker = new DayChecker();
+            dayChecker.ShowDayOfWeek();
+            Console.WriteLine("\nTask 4 completed successfully!");
         }
     }
 }
